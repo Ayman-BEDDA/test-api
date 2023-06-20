@@ -1,0 +1,22 @@
+GET http://localhost:3000/users/1
+
+###
+
+PUT http://localhost:3000/users/1/accounts/credit
+Content-Type: application/json
+
+{
+  "id": "a1",
+  "amount": 200
+}
+
+###
+
+PUT http://localhost:3000/users/1/accounts/debit
+Content-Type: application/json
+
+{
+"id": "a1",
+"amount": 1100
+}
+
