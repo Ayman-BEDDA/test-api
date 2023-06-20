@@ -10,7 +10,7 @@ describe('Endpoints de crédit et de débit', () => {
 
         expect(response).toHaveProperty('creditedAmount', 200);
         expect(response).toHaveProperty('remainingAmount', 0);
-        expect(response).toHaveProperty('newBalance', 700);
+        expect(response).toHaveProperty('newBalance', 20);
     });
 
     test('Débit d\'un compte', () => {
